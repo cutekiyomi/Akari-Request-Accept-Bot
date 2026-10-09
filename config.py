@@ -9,7 +9,7 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1004439390501"))
 ADMINS = int(environ.get("ADMINS", "6702389863,5920352309"))
 
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = environ.get("DB_URI", "mongodb+srv://Kiyomi:Priyanshu.y55555@cluster0.cjjazyc.mongodb.net/?appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = environ.get("DB_NAME", "akarirequestacceptbot")
 
 # If this is True Then Bot Accept New Join Request 
